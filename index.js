@@ -15,11 +15,11 @@ function countDown(fromNumber) {
 
     let nextNumber = fromNumber - 1;
 
-    if (nextNumber > 0) {
+    if (nextNumber >= 0) {
         countDown(nextNumber);
     }
 }
-countDown(11);
+countDown(10);
  
 
 

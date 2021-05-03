@@ -19,7 +19,7 @@ function countDown(fromNumber) {
         countDown(nextNumber);
     }
 }
-countDown(3);
+countDown(10);
  
 
 

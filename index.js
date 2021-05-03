@@ -10,17 +10,16 @@ function writeCards(cards, event) {
   return result
 }
 
-function countDown() {
-  var i = 0;
-for (; i < 9; i++) {
-    console.log(i);
-    // more statements
-      
-      countDown(10);
+function countDown(fromNumber) {
+    console.log(fromNumber);
+
+    let nextNumber = fromNumber - 1;
+
+    if (nextNumber > 0) {
+        countDown(nextNumber);
     }
-    
-    
 }
+countDown(3);
  
 
 
